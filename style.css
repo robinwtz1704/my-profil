@@ -1,0 +1,215 @@
+body{
+	background-color: #F5F5F7;
+	color: #2F4858;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	letter-spacing: 2px;
+
+}
+
+a {
+	font-family: 'Jost', sans-serif;
+	color: #304C89;
+	text-wiegh: bold;
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+
+	font-family: 'Jost', sans-serif;
+}
+
+h1{
+
+	color: #E26D5A;
+	font-size: 70px;
+	letter-spacing: 1px;
+
+	text-wiegh: bold;
+
+
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+
+h2{
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 50px;
+	text-wiegh: bold;
+	color: #304C89;
+}
+
+
+
+/* Custom*/
+
+
+.container {
+	width: 900px;
+	margin:30px auto;
+}
+
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #304C89;
+	color: white;
+	padding: 10px 150px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline li {
+	display: inline-flex;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color : #304C89;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color : black;
+}
+
+#introduction p {
+	margin-bottom: 60px;
+	margin-top: -20px;
+	margin-left: 80px;
+	margin-right: 300px;
+	text-align: left;
+
+}
+
+
+
+.Robin {
+	display: inline-flex;
+}
+
+
+.Robin  img {
+	margin-left: 50px;
+}
+
+.photo-inline {
+	display: inline-flex;
+	margin-left: 50px;
+}
+
+.photo-inline p {
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+.mbappe {
+	margin-bottom: 0px;
+	margin-left: 20px;
+	width: 50%;
+	height: 50%;
+
+}
+
+.GOAT {
+	background-color: white;
+
+	padding: 10px 30px;
+	border-radius: 4px;
+	margin-right: 10px auto;
+}
+
+
+.GOAT:hover {
+	background-color: black;
+	color: black;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin-right: 10px auto;
+}
+
+#lol  {
+	background-image: url(Image/bugatti.png);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+#lol:hover {
+	background-image: url(Image/bugatti6.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+
+#lol h2{
+	color: white;
+}
+
+
+#Kylian {
+	background-color: white;
+	padding: 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#Kylian h2 {
+	padding: 40px;
+	margin-bottom: -55px;
+
+}
+
+
+
